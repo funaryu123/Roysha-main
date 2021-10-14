@@ -1,17 +1,15 @@
 @charset "utf-8";
 
 body {
-    color: #6c6c6c;
-    font-family: Helvetica, Arial, sans-serif;
-    line-height: 1.75px;
+    color: #6c6c6f;
     font-size: 16px;
-
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 1.75;
 }
 
 img {
-
+    max-width: 100%;
     height: auto;
-    width: 100%;
     vertical-align: bottom;
 }
 
@@ -25,24 +23,21 @@ li {
     margin: 0 auto;
 }
 
-
+/* header */
 header {
     padding: 30px 0;
-    background-color: #123d88;
-
+    background-color: #123D88;
 }
-
 
 h1 {
     line-height: 1;
-
 }
 
+/* footer */
 footer {
     padding: 30px 0;
     background-color: #123D88;
     text-align: right;
-
 }
 
 small {
@@ -50,16 +45,13 @@ small {
     font-size: 15px;
 }
 
-/*outline*/
+/* outline */
 .outline-notes {
     margin-bottom: 18px;
-    /*notes*/
     color: #256BE6;
     font-size: 14px;
     letter-spacing: 0.05em;
     text-transform: uppercase;
-
-
 }
 
 .outline-title {
@@ -72,4 +64,158 @@ small {
 
 .outline p {
     margin-bottom: 30px;
+}
+
+/*card*/
+.card_ico {
+    margin-bottom: 40px;
+
+}
+
+.card_title {
+    margin-bottom: 20px;
+    color: #2f2f35;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.btn {
+    display: block;
+    width: 200px;
+    margin-top: 60px;
+    padding: 15px 0;
+    background-color: #256be6;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 0.025em;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+
+/*home
+----------------------*/
+
+/*features*/
+.features {
+    padding: 80px 0;
+
+}
+
+.features .inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.features .outline {
+    width: 42.7%;
+
+}
+
+.features-lest {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 50%;
+    padding-bottom: -70%;
+    /*ネガティブマージン*/
+}
+
+.features-lest .card {
+    width: 44%;
+    margin-bottom: 70px;
+}
+
+.payment {
+    padding: 80px 0;
+    background-color: #F7FAFF;
+
+}
+
+.payment .inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.payment-pic {
+    width: 50%;
+
+}
+
+.payment .outline {
+    width: 42.7%;
+
+}
+
+
+
+/*service
+----------------------*/
+
+.offer {
+    padding: 80px 0;
+    background-color: #505050;
+    color: #fff;
+    text-align: center;
+}
+
+.offer .outline-title {
+    color: #fff;
+
+}
+
+.offer .btn {
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+}
+
+
+
+.wedo {
+    padding: 80px;
+
+    text-align: center;
+
+}
+
+
+.wedo .outline {
+    margin-bottom: 60px;
+
+}
+
+.service {
+    padding: 60px 70px;
+}
+
+.service-title {
+    padding-bottom: 60px;
+    color: #2F2F35;
+    font-size: 28px;
+    font-weight: bold;
+
+}
+
+.service-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.service-list .card {
+    width: 29.1%;
+    padding: 40px 25px;
+    background-color: #fff;
+
+}
+
+.service-list .btn {
+    margin: 40px auto 0;
 }
